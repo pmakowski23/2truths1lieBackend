@@ -1,12 +1,7 @@
 const app = require("express")();
 const cors = require("cors");
 const httpServer = require("http").createServer(app);
-const io = require("socket.io")(httpServer, {
-  cors: {
-    origin: "http://localhost:3000",
-    credentials: true,
-  },
-});
+const io = require("socket.io")(httpServer, {});
 
 const PORT = process.env.PORT || 5000;
 
