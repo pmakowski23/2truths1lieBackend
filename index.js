@@ -1,6 +1,5 @@
 const app = require("express")();
 const cors = require("cors");
-app.use(cors());
 const httpServer = require("http").createServer(app);
 const io = require("socket.io")(httpServer, {
   cors: {
@@ -10,6 +9,8 @@ const io = require("socket.io")(httpServer, {
 });
 
 const PORT = process.env.PORT || 5000;
+
+app.use(cors());
 
 let users = 0;
 let lobbies = [
