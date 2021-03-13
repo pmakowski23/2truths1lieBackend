@@ -1,6 +1,6 @@
 # Live on
 
-https://dashboard.heroku.com/apps/two-truths-one-lie/deploy/heroku-git
+https://two-truths-one-lie.herokuapp.com/
 
 # BACKEND for 2Truths1Lie Game
 
