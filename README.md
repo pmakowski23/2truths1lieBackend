@@ -1,3 +1,7 @@
+# Live on
+
+https://dashboard.heroku.com/apps/two-truths-one-lie/deploy/heroku-git
+
 # BACKEND for 2Truths1Lie Game
 
 - node.js with sockets.io
