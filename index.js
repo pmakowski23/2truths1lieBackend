@@ -14,6 +14,10 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send("I'm alive");
+});
+
 let users = 0;
 let lobbies = [
   {
