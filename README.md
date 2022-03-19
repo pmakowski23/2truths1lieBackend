@@ -9,12 +9,11 @@ https://two-truths-one-lie.herokuapp.com/
 
 ## TODO
 
-- add mongoDB to store players data
-- Zapisywać stan gier między graczami (w zależności od ułożenia)
-  - np. jak gra jan patryk to score jest 1:0
-    jak gra jan z maliną to jest 0:1
-- Wyświetlać przy scorze
-  - Jeśli nie jest kłamcą -> Prawidłową odpowiedź
-  - Jeśli jest kłamcą -> Które osoby jaką odpowiedź zaznaczyły
-- Jeśli lobbyData === undefined to wyjebać patryka rozgwiazdę albo jakiś problem
-- Add lobby searching
+- [ ] MongoDB to store players data
+- [ ] Store game progress
+- [ ] Allow premature finish of the game
+- [ ] Send info about in-progress game lacking players
+- [ ] Return score info with points
+  - [ ] For guessers"+1 point: You properly choose a lie"
+  - [ ] For lier "+5 points: You fooled 5 players"
+- [ ] Lobby searching by name 
