@@ -1,8 +1,9 @@
 # Live on
-
 https://two-truths-one-lie.herokuapp.com/
 
-# BACKEND for 2Truths1Lie Game
+[Frontend repo](https://github.com/pmakowski23/2truths1lieFrontend)
+
+# Backend for [2Truths1Lie Game](https://2truths1lie.netlify.app/)
 
 - node.js with sockets.io
 - all in memory db as informations don't have to be stored over time for now.
